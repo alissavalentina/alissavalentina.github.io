@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>jquery</title>
+  <title>center</title>
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -17,38 +17,79 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-<style media="screen">
-.height1{
-  height: 100px;
+  <style media="screen">
+    .height{
+      height: 200px;
+    }
+  .fitHeightWidth{
+    height: 100%;
+    width: 100%;
+  }
+.relativeParent{
+  position: relative;
 }
-.height2{
-  height: 600px;
+.absoluteChild{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
-</style>
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexSpaceBetween{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexSpaceAround{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+  </style>
 </head>
 
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-md-12 height1 randomColor">
+      <div class="col-md-3 height randomColor">
+        <img src="img/crazycats.jpg" class="fitHeightWidth" alt="cat">
+      </div>
+      <div class="col-md-3 height relativeParent">
+        <img src="img/bluecat.jpg" class="absoluteChild" alt="cat">
+      </div>
+      <div class="col-md-3 height flex">
+        <img src="img/bluecat.jpg" alt="cat">
+
+      </div>
+      <div class="col-md-3 height randomColor">
 
       </div>
 
     </div>
     <div class="row">
-      <div class="col-md-2 height2 randomColor">
-
-      </div>
-      <div class="col-md-8 height2 randomColor">
-
-      </div>
-      <div class="col-md-2 height2 randomColor">
+      <div class="col-md-12 height flexSpaceAround">
+        <img src="img/bluecat.jpg" alt="cat">
+        <img src="img/bluecat.jpg" alt="cat">
+        <img src="img/bluecat.jpg" alt="cat">
 
       </div>
 
     </div>
     <div class="row">
-      <div class="col-md-12 height1 randomColor">
+      <div class="col-md-3 height randomColor">
+
+      </div>
+      <div class="col-md-3 height randomColor">
+
+      </div>
+      <div class="col-md-3 height randomColor">
+
+      </div>
+      <div class="col-md-3 height randomColor">
 
       </div>
 
@@ -73,60 +114,6 @@
 
     })
   </script>
-  <script type="text/javascript">
-/*
-  alert("my JS!");
-
-  console.log("write to the console......");
-
-  function myFirstFunction(){
-//whatever is in the curly brackets will run if we call function//
-console.log("write from inside the function......");
-}
-
-function myFunctionWithParameter(name){
-
-console.log("hello" +name);
-
-}
-
-myFunctionWithParameter("Sarah");
-myFunctionWithParamete("how are you?");
-*/
-
-var myOnOff = true;
-var isDayTime = false;
-
-var salary = 100000;
-var carPrice = 25000.25;
-
-var emailAddress = "osnapitzsarah@hotmail.com";
-var sentence = "the judgement of paris";
-var anotherSentence = "Anderson's class";
-
-var salary1 = 100000;
-var salary2 = "100000";
-
-var taxes = 25000;
-
-console.log("my take home is" = (salary1-taxes));
-
-console.log("a bunch of info : "+ salary + " and " + carPrice + " and even more "+ isDayTime);
-
-var myConcatanation = "2a bunch of info : "+ salary + " and " + carPrice + " and even more "+ isDayTime;
-
-console.log(myConcatanation);
-
-function writeToConsole(myString){
-  console.log(myString);
-}
-
-writeToConsole(myConcatanation);
-writeToConsole("3" + myConcatanation);
-
-
-  </script>
-
 </body>
 
 </html>
