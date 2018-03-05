@@ -1,0 +1,44 @@
+[
+  {
+    "fruit":"Strawberry",
+    "color":"Red",
+    "haveSeeds":true,
+    "placeOfGrowth":"plants",
+    "size":"small",
+    "location":"California"
+
+  },
+  {
+    "fruit":"Banana",
+    "color":"Yellow",
+    "haveSeeds":false,
+    "placeOfGrowth":"trees",
+    "size":"medium",
+    "location":"Latin America"
+  },
+  {
+    "fruit":"Grapes",
+    "color":"green",
+    "haveSeeds":true,
+    "placeOfGrowth":"vine",
+    "size":"small",
+    "location":"Europe"
+  },
+  {
+    "fruit":"Apples",
+    "color":"red",
+    "haveSeeds":true,
+    "placeOfGrowth":"tree",
+    "size":"medium",
+    "location":"China"
+  },
+  {
+    "fruit":"Lemon",
+    "color":"yellow",
+    "haveSeeds":true,
+    "placeOfGrowth":"trees",
+    "size":"medium",
+    "location":"China"
+  }
+
+]
