@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>JSON </title>
+    <title>JSON</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -19,73 +19,44 @@
   </head>
   <body>
 
+    <div class="container">
+      <div class="row">
+          <div class="output">
+
+          </div>
+
+      </div>
+
+    </div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script>
 
-    var url = "";
+
+    <script>
+      // get the jSON
+    var url = "https://alissavalentina.github.io/class/week8/assets/myJson.json";
     $.getJSON(url).done(function(data){
 
       console.log("success! ");
       console.dir(data);
       // paste everything here
-      var dataHtml="";
-      for(var i=0;i<data.length;i++){
+      var dataHtml=" ";
+      for(var i = 0;i<data.length;i++){
         console.log("i " + i);
+          dataHtml+="<div>"+data[i].fruit+"</div>"
+          +"<div>"+data[i].color+"</div>"
+          +"<div>"+data[i].haveSeeds+"</div>"
+          +"<div>"+data[i].placeOfGrowth+"</div>"
+          +"<div>"+data[i].size+"</div>"
+          +"<div>"+data[i].location+"</div>";
 
-        [
-          {
-            "fruit":"Strawberry",
-            "color":"Red",
-            "haveSeeds":true,
-            "placeOfGrowth":"plants",
-            "size":"small",
-            "location":"California"
 
-          },
-          {
-            "fruit":"Banana",
-            "color":"Yellow",
-            "haveSeeds":false,
-            "placeOfGrowth":"trees",
-            "size":"medium",
-            "location":"Latin America"
-          },
-          {
-            "fruit":"Grapes",
-            "color":"green",
-            "haveSeeds":true,
-            "placeOfGrowth":"vine",
-            "size":"small",
-            "location":"Europe"
-          },
-          {
-            "fruit":"Apples",
-            "color":"red",
-            "haveSeeds":true,
-            "placeOfGrowth":"tree",
-            "size":"medium",
-            "location":"China"
-          },
-          {
-            "fruit":"Lemon",
-            "color":"yellow",
-            "haveSeeds":true,
-            "placeOfGrowth":"trees",
-            "size":"medium",
-            "location":"China"
-          }
-
-        ]
       }
-
-      console.log(dataHtml);
-
       $(document).ready(function(){
-        $(".carousel-inner").html(dataHtml);
-        $(".carosuel").carousel();
+        $(".output").html(dataHtml);
       })
 
     }).fail(function(data){
@@ -94,6 +65,15 @@
 
 
 
+
+
+
     </script>
+
+
+
+
+
+
   </body>
 </html>
