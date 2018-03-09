@@ -25,12 +25,14 @@
       }
       header{
         text-align: center;
+
       }
-      h1{
+      mark, h1{
         font-family: Graduate, display;
         font-size: 50px;
         color: red;
       }
+
       #nav-bar ul li{
         list-style-type: none;
         display: inline-block;
@@ -44,37 +46,78 @@
       #nav-bar ul{
         text-align: center;
       }
-      #appetizers, #soups-salads, #mains, #sides, #beverages, #desserts{
-        text-align: center;
+      #appetizers, #mains, #beverages{
+        margin-top: 50px;
         font-family: "Amatic SC";
-        font-size: 30px;
+        font-size: 50px;
         text-decoration: underline;
+        font-weight: bold;
+        margin-left: 300px;
       }
+      #soups-salads, #sides, #desserts{
+        margin-top: 50px;
+        font-family: "Amatic SC";
+        font-size: 50px;
+        text-decoration: underline;
+        font-weight: bold;
+        margin-left: 900px;
+      }
+      #apptizers-items, #mains-items, #beverages-items{
+        list-style-type: none;
+        margin-left: 260px;
+        font-family: Lato;
+        font-size: 20px;
 
-
+      }
+      #soups-salads-items, #sides-items, #desserts-items{
+        list-style-type: none;
+        margin-left: 880px;
+        font-family: Lato;
+        font-size: 20px;
+      }
+      #nachos{
+        position: absolute;
+        right: 300px;
+        top: 250px;
+      }
+      #sm{
+        position: absolute;
+        right: 250px;
+        top: 940px;
+      }
+      #greek{
+        position: absolute;
+        left: 320px;
+        top: 590px;
+      }
+      footer{
+        text-align: center;
+        bottom: 0;
+        margin-top: 50px;
+      }
     </style>
   </head>
   <body>
 
     <header id="heading">
-        <h1> Sid's Diner Menu </h1>
+        <h1> <mark> Sid's Diner Menu  </mark> </h1>
     </header>
 
     <nav id="nav-bar" flex>
         <ul>
           <li><a href=""> Appetizers </a></li>
           <li><a href=""> Soups & Salads </a></li>
-          <li><a href="">Mains</a></li>
+          <li><a href=""> Mains</a></li>
           <li><a href=""> Sides </a></li>
           <li><a href=""> Beverages</a></li>
-          <li><a href="">Desserts</a></li>
+          <li><a href=""> Desserts</a></li>
         </ul>
     </nav>
 
     <main id="main-body">
 
       <h4 id="appetizers">Appetizers</h4>
-        <ul>
+        <ul id="apptizers-items">
           <li>Mozzarella Sticks</li>
           <li>Nachos</li>
           <li>Chicken Wings</li>
@@ -83,11 +126,13 @@
           <li>Bruschetta</li>
           <li>Calamari</li>
           <li>Potato Skins</li>
+          <img id="nachos" height="300px" width="300px" src="img/nachos.jpg" alt="Nachos" />
         </ul>
 
 
+
       <h4 id="soups-salads">Soups & Salads</h4>
-        <ul>
+        <ul id="soups-salads-items">
           <li>Cobb Salad</li>
           <li>Cesar Salad</li>
           <li>Greek Salad</li>
@@ -95,10 +140,12 @@
           <li>Chicken Noodle Soup</li>
           <li>French Onion Soup</li>
           <li>Potato and Cheddar Soup</li>
+          <img id="greek" height="250px" width="350px" src= "img/greeksalad.jpg" alt="Greek Salad" />
         </ul>
 
+
       <h4 id="mains"> Mains </h4>
-      <ul>
+      <ul id="mains-items">
         <li>Hamburger</li>
         <li>Cheeseburger</li>
         <li>Fajita's</li>
@@ -108,11 +155,12 @@
         <li>Chicken Avocado Sandwich</li>
         <li>Grilled Cheese</li>
         <li>Chicken Fingers</li>
+        <img id="sm" height="250px" width="350px" src= "img/sm.jpg" alt="Spaghetti & Meatballs" />
       </ul>
 
 
       <h4 id="sides"> Sides </h4>
-        <ul>
+        <ul id="sides-items">
           <li>Salad</li>
           <li>Fries</li>
           <li>Poutine</li>
@@ -124,11 +172,11 @@
 
 
       <h4 id="beverages"> Beverages </h4>
-        <ul>
+        <ul id="beverages-items">
           <li>Apple Juice</li>
           <li>Orange Juice</li>
           <li>Fruit Punch</li>
-          <li>Coco-Cola</li>
+          <li>Coke</li>
           <li>Sprite</li>
           <li>Iced Tea</li>
           <li>Tea</li>
@@ -139,7 +187,7 @@
         </ul>
 
       <h4 id="desserts"> Desserts </h4>
-        <ul>
+        <ul id="desserts-items">
           <li>Strawberry Cheesecake</li>
           <li>Warm Brownie</li>
           <li>Apple Pie</li>
@@ -147,22 +195,15 @@
           <li>Ice Cream</li>
           <li>Crème Brulee</li>
         </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </main>
+
+    <footer>
+
+      <p>
+         &copy Alissa, Sarah, John & Loucas
+      </p>
+
+    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
