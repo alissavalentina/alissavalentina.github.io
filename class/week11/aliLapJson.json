@@ -1,0 +1,34 @@
+{
+  "Sheet1": {
+    "1": {
+      "itemId": 1,
+      "aliLapTitle": "Wax Agave",
+      "aliLapPrice": "¥ 700",
+      "aliLapImgUrl": "alissavalentina.github.io/class/week11/img/Echeveria-agavoides-Maria-Wax-Agave1.jpg"
+    },
+    "2": {
+      "itemId": 2,
+      "aliLapTitle": "Paddle",
+      "aliLapPrice": "¥ 700",
+      "aliLapImgUrl": "alissavalentina.github.io/class/week11/img/Kalanchoe-luciae-Paddle-Plant-Red-Pancakes.jpg"
+    },
+    "3": {
+      "itemId": 3,
+      "aliLapTitle": "Green Prince",
+      "aliLapPrice": "¥ 700",
+      "aliLapImgUrl": "alissavalentina.github.io/class/week11/img/echeveria-blue-prince__74248.1487030901.jpg"
+    },
+    "4": {
+      "itemId": 4,
+      "aliLapTitle": "Hens and Chicks",
+      "aliLapPrice": "¥ 700",
+      "aliLapImgUrl": "alissavalentina.github.io/class/week11/img/hens-and-chicks-in-strawberry-pot.jpg"
+    },
+    "5": {
+      "itemId": 5,
+      "aliLapTitle": "Snake Plant",
+      "aliLapPrice": "¥ 700",
+      "aliLapImgUrl": "alissavalentina.github.io/class/week11/img/snakeplant.jpg"
+    }
+  }
+}
