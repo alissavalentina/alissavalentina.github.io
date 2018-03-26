@@ -195,7 +195,7 @@ function writeJSONToDom(d){
 
     html+="</div>";
     html+="<div class='buttonContainer'>"
-    html+="<button type='button' class='buyButton btn-default btn'>Buy</button>";
+    html+="<button type='button' class='buyButton btn-default btn flexSpaceAround'>Buy</button>";
     html+="</div>";
     html+="</div>";
 
@@ -209,6 +209,7 @@ $(document).ready(function(){
   getOptions();
   getAds();
   initEvents();
+  $(".selectContainer").find("select").change();
   $("body").fadeIn();
 
 })
