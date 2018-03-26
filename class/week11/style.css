@@ -62,3 +62,7 @@ hr{
 select{
   width: auto;
 }
+
+.itemContainer{
+  width: 200px;
+}
