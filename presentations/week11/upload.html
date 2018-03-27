@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cards Website Template</title>
+  <style media="screen">
+    .outputArray {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 400px;
+    }
+
+    .individualCard { /*spaces out the cards */
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+
+    .cardInfo {
+      text-align: center;
+    }
+
+    .itemButton{
+      text-align: right;
+      padding: 10px;
+    }
+  </style>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style media="screen">
+    @import url('https://fonts.googleapis.com/css?family=Handlee');
+      body{
+        background-image: url("img/dust.png");
+      }
+      .height1{
+        height: 200px;
+        width: 100%;
+      }
+      .height2{
+        height:800px;
+      }
+      .heading{
+        text-align: center;
+        font-family: Handlee;
+        font-weight: bold;
+        color: white;
+        font-size: 50px;
+        padding-top: 50px;
+      }
+      .heading1{
+        background-image: url("img/world.jpg");
+        background-repeat:space;
+        background-position: center;
+
+      }
+      nav{
+        height: 20px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+      }
+      nav ul li {
+        text-decoration-style: none;
+        display: inline-block;
+      }
+      nav ul{
+        text-align: center;
+        font-size: 20px;
+        text-shadow: 1px 1px grey;
+      }
+      nav li{
+        padding-right: 50px;
+        padding-bottom: 50px;
+      }
+      footer{
+        text-align: center;
+        margin-bottom: auto;
+      }
+      /* .colour{
+        background-color: grey;
+
+      } */
+    </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 cardSection height1 heading1">
+        <div class="heading">
+           CITIES OF THE WORLD
+        </div>
+      </div>
+      <div class="col-md-12 navBar flexSpaceAround">
+        <nav id="nav-bar1">
+          <ul>
+            <li>Home</li>
+            <li>Gallery</li>
+            <li>Explore the World</li>
+            <li>Contact Us</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="col-md-12 height2 colour">
+        <div class="outputArray ">
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+
+
+      //These are your Object Arrays
+      var arrayTopic = [{ //Change arrayTopic to whatever topic your group chose in class
+          "Name": "Toronto",
+          "Population": "2 Million",
+          "Country": "Canada",
+          "Language": "French and English",
+          "imgUrl": "http://www.togomeetings.com/wp-content/uploads/2017/08/attractive-toronto-skyline-poster-and-amazing-ideas-of-photograph-by-elena-elisseeva-posters-4-128x128.jpg",
+
+        },
+
+        {
+          "Name": "Tokyo",
+          "Population": "13 Million",
+          "Country": "Japan",
+          "Language": "Japanese",
+          "imgUrl": "https://static.greatbigcanvas.com/images/square/bigstock/dense-buildings-in-minato-ku-tokyo-japan-with-tokyo-sky-tree-visible-on-the-horizon-,2278312.jpg?max=128",
+
+        },
+
+        {
+          "Name": "Paris",
+          "Population": "2 Million",
+          "Country": "France",
+          "Language": "French",
+          "imgUrl": "https://www.lebanoninapicture.com/Prv/Images/Pages/Page_163111/the-flood-shot-in-paris-france-natgeo-instagram-1-29-2018-6-45-43-pm-t.jpg",
+
+        },
+        {
+          "Name": "Los Angeles",
+          "Population": "3.9 Million",
+          "Country": "USA",
+          "Language": "English",
+          "imgUrl": "http://d1marr3m5x4iac.cloudfront.net/images/block/I0-001/030/728/138-5.jpeg_/los-angeles-2018-career-fair-meet-top-employers-38.jpeg",
+
+        }
+      ];
+
+      $(document).ready(function() {
+        $(".output").html("test output");
+        var html = ""; // This is the Variable to hold the html -> without this, nothing will show up
+
+        //HERE IS YOUR LOOP
+
+/*      Remember that each card needs the following things:
+        - Gets the user do something such as redirecting to another page (this can be done with buttons, animations, etc.)
+        - Include and style the image
+        - Be organized in a specific way (HINT: Flexbox)
+ */
+
+        for (var i = 0; i < arrayTopic.length; i++) { //change arrayTopic to whatever you
+          html += "<div class='panel panel-default individualCard'>" +
+            "<div><img class='img-responsive' src='" + arrayTopic[i].imgUrl + "' /></div>" + //change the red text to the keys in your Array
+            "<div class='cardInfo nameLabel'>" + arrayTopic[i].Name + "</div>" + //change the red text to the keys in your Array
+            "<div class='cardInfo ageLabel'>" + arrayTopic[i].Population + "</div>" + //change the red text to the keys in your Array
+            "<div class='cardInfo ownerLabel'>" + arrayTopic[i].Country + "</div>" + //change the red text to the keys in your Array
+            "<div class='cardInfo ownerLabel'>" + arrayTopic[i].Language + "</div>" + //change the red text to the keys in your Array
+          
+            "</div>";
+        }
+        $(".outputArray").html(html); //outputs the loop onto the html
+
+      });
+    </script>
+
+
+    <script>
+      //   // THIS IS FOR IF YOU WANT TO GET A JSON FILE FROM ONLINE
+      //   var url = "https://zabrinabolasco.github.io/class/week8/assets/cities.json" //JSON Link goes here (it's currently a template right now, don't worry about it)
+      //   console.log("You need a website — why not do it yourself?"); //message appears so you can test your JavaScript here
+      //
+      //   // This is the defined function
+      //   function cardShuffle(d) {
+      //     console.dir(d);
+      //
+      //     var html = ""; // This is the variable to hold the html
+      //
+      //     // THIS IS THE LOOP //
+      //
+      //     /*Remember that each card needs the following things:
+      //         - Gets the user do something such as redirecting to another page (this can be done with buttons, animations, etc.)
+      //         - Include an image
+      //         - Be organized in a specific way (HINT: JSON)
+      //     */
+      //
+      //     //Here is the loop of the Array you made
+      //     for (var i = 0; i < d.length; i++) {
+      //       html += "<div>" + d[i].name + "</div>"; //Image
+      //       html += "<div>" + d[i].texture + "</div>"; // Item 1
+      //       html += "<div>" + d[i].temperature + "</div>"; // Item 2
+      //       html += "<div>" + d[i].origin + "</div>"; // Item 3
+      //       html += "<div>" + d[i].twelve + "</div>"; // Item 4
+      //       html += "<button type='button' class='itemButton btn btn-default'>Click!</button>"; //Design your button here, make sure you put
+      //       html += "</div>";
+      //     }
+      //
+      //     //when the document is ready, this loads the JSON into the class 'cardSection' in the html
+      //     $(document).ready(function() {
+      //       $(".cardSection").html(html);
+      //     })
+      //   }
+      //
+      //   // Gets the JSON from a url
+      //   $.get(url)
+      //     .done(function(data) { //what comes back is put into "data"
+      //       console.log("success! ");
+      //       //Takes the "data and pushes it to a function => cardShuffle
+      //       cardShuffle(data);
+      //     })
+      //
+      //     //If it fails, then this message should appear
+      //     .fail(function(data) {
+      //       console.log("failed " + JSON.stringify(data));
+      //     })
+    </script>
+  <footer>
+    &copy Created By: Alissa Lappano
+  </footer>
+</body>
+
+</html>
