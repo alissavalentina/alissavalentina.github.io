@@ -244,7 +244,6 @@ var spriteImages = [{
     "name": "ball"
   },
 
-
 {
     "spriteMapUrl": "https://chell-github.github.io/class/week12/images/masae.png",
     "numFrames": 29,
@@ -260,7 +259,6 @@ var spriteImages = [{
       "height": 145,
       "name": "steven"
     }
-
 
 ];
 var animations = []; //an array to hold the currently existing sprite obects
