@@ -1,0 +1,2235 @@
+/* CSS Reset Begins */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* CSS Reset Ends */
+
+body{
+    background-color: #C4DEF7;
+}
+
+nav, #homenav{
+    position: absolute;
+    left: 420px;
+    top: 0;
+}
+
+#home, nav ul{
+    position:absolute;
+    top: 1100px;
+    left: 90px;
+    
+}
+
+#home,footer{
+    position:absolute;
+    bottom: -3000px;
+}
+
+.home aside{
+    content: '';
+    display: none;
+}
+
+    div.signsformobile{
+    display: block;
+        position: absolute;
+        left: 500px;
+        top: 1200px;
+       
+    }
+    
+    div.signsformobile #homebutt, #moviesbutt, #dearsantabutt{
+        display: block;
+       
+    }
+    
+    div.signsformobile #musicbutt, #recipesbutt, #gallerybutt{
+        display: block;
+    }
+
+div.mobilehomenav{
+    content: '';
+    display: none;
+}
+
+div.santasleigh{
+    content: '';
+    display: none;
+}
+    
+
+
+
+#music #sign-mob {
+    content:'';
+    display: none;
+}
+
+#music #ice2{
+    position: absolute;
+    
+}
+
+#music nav{
+    left: 0;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#music #signs-music li{
+    padding-bottom: 10px;
+}
+
+#music #signs-music{
+    position: absolute;
+    top: 350px;
+    left: 30px;    
+}
+
+#music #musica{
+    position: absolute;
+    left: 400px; 
+    top: 250px;
+    line-height: 5;
+}
+
+#music footer{
+    position: absolute;
+    bottom: -4000px
+}
+
+
+.gallery-mob{
+    content: "";
+    display: block;
+}
+
+#gallery, #gallery-mob{
+    content: "";
+    display: none; 
+}
+
+nav, #gallerynav{
+    left: 0;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#gallery, #signs-gallery{
+    position: absolute;
+    top: 350px;
+    left: 30px;
+}
+
+#gallery, #signs-gallery li{
+    padding-bottom: 10px;
+}
+
+#gallery ul, #santahat{
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    
+}
+
+#gallery ul, #deer{
+    position: absolute;
+    left: 850px;
+    top: 300px;
+}
+
+#gallery ul, #tree{
+    position: absolute;
+    left: 300px;
+    top: 700px;
+}
+
+#gallery ul, #deco{
+    position: absolute;
+    left: 850px;
+    top: 700px;
+}
+
+#gallery ul, #kid{
+    position: absolute;
+    left: 300px;
+    top: 1100px;
+}
+
+#gallery ul, #lights{
+    position: absolute;
+    left: 850px;
+    top: 1100px;
+}
+
+#gallery ul, #santakid{
+    position: absolute;
+    left: 300px;
+    top: 1510px;
+}
+
+#gallery ul, #snowman{
+    position: absolute;
+    left: 850px;
+    top: 1510px;
+}
+
+.gallery footer{
+    position: absolute;
+    bottom: -1600px;
+    
+}
+
+.gallery #ice2{
+    position: absolute;
+}
+
+
+
+
+div.navheader{
+    content: '';
+    display: none;
+}
+
+
+.recipes .pole ul li{
+    margin-bottom: 50px;
+}
+
+.recipes #sign-mob{
+    content: "";
+    display: none;
+}
+
+#candycane{
+    position: absolute;
+    left: 270px;
+    top: 300px;
+}
+
+#squares{
+    position: absolute;
+    left: 1050px;
+    top: 770px;
+}
+    
+#buddy{
+    position: absolute;
+    left: 300px;
+    top: 1240px
+}
+
+#stick{
+    position: absolute;
+    left: 1050px;
+    top: 1700px;
+}
+
+#ing1, #ing2, #ing3, #dir1 li{
+    text-align: left;
+    font-size: 16px;
+    max-width: 500px;
+    max-height: 100px;
+    
+    
+}
+
+#recipes, h1, h2, h3{
+    font-family: Open Sans, sans-serif;
+    font-size: 20px;
+    max-width: 700px;
+}
+
+#dir1 h3{
+    text-align: left;
+}
+
+#dir1{
+    position: absolute;
+    left: 1000px;
+    padding-right: 15px;
+    top: 299px;
+    
+}
+
+#ing1 h1{
+    font-weight: 700;
+    padding-bottom: 20px;
+
+}
+
+#ing1{
+    position: absolute;
+    top: 300px;
+    left: 600px;
+}
+
+#ing2{
+    position: absolute;
+    left: 600px;
+    top: 540px;
+}
+
+#ing3{
+    position: absolute;
+    left: 600px;
+    top: 600px
+}
+
+#ing1-2, #dir2{
+    max-width: 400px;
+}
+
+#ing1-2{
+    position: absolute;
+    text-align: left;
+    top: 880px;
+    left: 300px;
+}
+
+#ing1-2 h2,h3{
+    padding-bottom: 5px;
+}
+
+#dir2{
+   position: absolute;
+    text-align: left;
+    top: 880px;
+    left: 600px;
+    
+
+}
+
+#ing1-2 #ginger{
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+#ing1-3 h1{
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+#ing1-3, #dir3{
+    max-width: 400px;
+}
+
+#ing1-3{
+    position: absolute;
+    top: 1400px;
+    left: 700px;
+}
+
+#dir3{
+    position: absolute;
+    top: 1400px;
+    left: 1000px;
+}
+
+#ing1-4 h1{
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+#ing1-4, #dir4{
+    max-width: 400px
+}
+
+#ing1-4{
+    position: absolute;
+    top: 1900px;
+    left: 300px;
+}
+
+#dir4{
+    position: absolute;
+    top: 1900px;
+    left: 640px;
+    max-width: 400px;
+}
+
+.recipes footer{
+    position: absolute;
+    bottom: -2100px;
+}
+
+.recipes #ice2{
+    position: absolute;
+}
+
+
+
+
+#movies #sign-mob{
+    
+}
+
+.movies #movies-signnav{
+    position: absolute;
+    top: 340px;
+    left: 30px;
+}
+
+.movies #movies-signnav li{
+    padding-bottom: 10px;
+}
+.movies #jingle{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+
+.movies #home-pic{
+    
+    position: absolute;
+    top: 300px;
+    left: 900px;
+}
+
+.movies #kranks{
+    position: absolute;
+    top: 1100px;
+    left: 300px;
+}
+
+.movies #story{
+    position: absolute;
+    top: 1100px;
+    left: 900px;
+}
+
+.movies #frost{
+    position: absolute;
+    top: 1900px;
+    left: 300px;
+}
+
+.movies #deck{
+    position: absolute;
+    top: 1900px;
+    left: 900px;
+}
+
+.movies #carol{
+    position: absolute;
+    top: 2700px;
+    left: 300px;
+}
+
+.movies #polar{
+    position: absolute;
+    top: 2700px;
+    left: 900px;
+}
+
+.movies #grinch{
+    position: absolute;
+    top: 3490px;
+    left: 300px;
+}
+
+.movies #clause{
+    position: absolute;
+    top: 3490px;
+    left: 900px;
+}
+
+.movies #elf-movie{
+    position: absolute;
+    top: 4300px;
+    left: 300px;
+}
+
+.movies #miracle{
+    position: absolute;
+    top: 4300px;
+    left: 900px;
+}
+
+.movies footer{
+    position: absolute;
+    bottom: -4800px;
+}
+
+.movies #ice2{
+    position:absolute;
+}
+
+
+
+/**
+#jingle-title, #homealone-title, #kranks-title, #story-title, #frost-title, #deck-title, #carol-title, #polar-title, #grinch-title, #clause-title, #elf-title, #miracle-title{
+    font-weight: 700;
+    font-family: santassleighfull, cursive;
+    font-size: 30px;
+    color: aqua
+}
+
+
+#jingle-title, .j1, .j2, .j3{
+    padding-top: 10px;
+}
+
+#jingle-title{
+    position: absolute;
+    top: 450px;
+    left: 450px;
+    z-index: 1;
+}
+
+.j1, .j2, .j3{
+    max-width: 400px;
+    z-index: 1
+}
+
+.j1{
+    position: absolute;
+    top: 500px;
+    left: 520px;
+}
+
+.j2{
+    position: absolute;
+    top: 530px;
+    left: 510px;
+}
+
+.j3{
+    position: absolute;
+    top: 560px;
+    left: 350px;
+}
+
+
+#homealone-title, .ha1, .ha2, .ha3{
+    padding-top: 10px;
+}
+
+#homealone-title{
+    position:absolute;
+    top: 450px;
+    left: 1080px;
+    z-index: 1;
+}
+
+.ha1, .ha2, .ha3{
+    max-width: 300px;
+    z-index: 1;
+}
+
+.ha1{
+    position: absolute;
+    top: 500px;
+    left: 1120px;
+}
+
+.ha2{
+    position:absolute;
+    top: 530px;
+    left: 1110px;
+}
+
+.ha3{
+    position:absolute;
+    top: 570px;
+    left: 1000px;
+}
+
+
+#kranks-title{
+    position: absolute;
+    top: 1250px;
+    left: 400px;
+    z-index: 1;
+}
+
+.k1, .k2, .k3{
+    max-width: 300px;
+    z-index: 1;
+}
+
+.k1{
+    position: absolute;
+    top: 1300px;
+    left: 520px;
+}
+
+.k2{
+    position: absolute;
+    top: 1330px;
+    left: 510px
+}
+
+.k3{
+    position:absolute;
+    top: 1355px;
+    left: 400px;
+}
+
+
+
+#story-title{
+    position:absolute;
+    top: 1250px;
+    left: 1050px;
+    z-index: 1;
+}
+
+.cs1{
+    position: absolute;
+    top: 1290px;
+    left: 1130px;
+    z-index: 1;
+}
+
+.cs2{
+    position: absolute;
+    top: 1320px;
+    left: 1120px;
+    z-index: 1;
+}
+
+.cs3{
+    position: absolute;
+    max-width: 300px;
+    color: white;
+    z-index: 1;
+    top: 1350px;
+    left: 1010px;
+}
+
+
+#frost-title{
+    position:absolute;
+    z-index: 1;
+    top: 2010px;
+    left: 500px;
+}
+
+.f1{
+    position:absolute;
+    color: white;
+    z-index: 1;
+    top: 2060px;
+    left: 530px;
+}
+
+.f2{
+    position: absolute;
+    color: white;
+    z-index: 1;
+    top: 2100px;
+    left: 520px;
+}
+
+.f3{
+    position:absolute;
+    max-width: 300px;
+    color: aqua;
+    top: 2150px;
+    left: 400px;
+    z-index: 1;
+}
+
+#deck-title{
+    position: absolute;
+    top: 2040px;
+    left: 1070px;
+    z-index: 1;
+}
+
+.d1{
+    position:absolute;
+    color: white;
+    top: 2090px;
+    left: 1130px;
+    z-index: 1;
+}
+
+.d2{
+    position: absolute;
+    z-index: 1;
+    top: 2120px;
+    left: 1115px;
+    color: white;
+}
+
+.d3{
+    position:absolute;
+    max-width: 300px;
+    z-index: 1;
+    top: 2150px;
+    left: 1000px; 
+    text-align: center;
+}
+
+#carol-title{
+    position:absolute;
+    z-index: 1;
+    top: 2800px;
+    left: 450px;
+}
+
+.cc1{
+    position: absolute;
+    z-index: 1;
+    top: 2860px;
+    color: white;
+    left: 550px;
+}
+
+.cc2{
+    position:absolute;
+    color: white;
+    z-index: 1;
+    top: 2890px;
+    left: 535px;
+}
+
+.cc3{
+    position: absolute;
+    z-index: 1;
+    top: 2930px;
+    max-width: 400px;
+    left: 350px;
+    color: white;
+    
+}
+
+#polar-title{
+    position: absolute;
+    z-index: 1;
+    top: 2850px;
+    left: 1070px;
+}
+
+.p1{
+    position: absolute;
+    z-index: 1;
+    top: 2890px;
+    left: 1130px;
+}
+
+.p2{
+    position:absolute;
+    z-index: 1;
+    top: 2920px;
+    left: 1120px;
+}
+
+.p3{
+    position: absolute;
+    z-index: 1;
+    top: 2950px;
+    max-width: 300px; 
+    left: 1000px;
+    color: white;
+}
+
+
+#grinch-title{
+    position: absolute;
+    z-index: 1;
+    top: 3600px;
+    left: 370px;
+}
+
+.g1{
+    position: absolute;
+    z-index: 1;
+    top: 3650px;
+    color: white;
+    left: 520px;
+}
+
+.g2{
+    position:absolute;
+    z-index: 1;
+    top: 3700px;
+    color: white;
+    left: 505px;
+}
+
+.g3{
+    position: absolute;
+    top: 3750px;
+    max-width: 300px;
+    left: 400px;
+    z-index: 1;
+    color: white;
+}
+
+#clause-title{
+    position: absolute;
+    z-index: 1;
+    top: 3600px;
+    left: 1050px;
+}
+
+.sc1{
+    position: absolute;
+    z-index: 1;
+    top: 3650px;
+    left: 1120px;
+}
+
+.sc2{
+    position:absolute;
+    max-width: 300px;
+    top: 3680px;
+    left: 1110px;
+    z-index: 1;
+}
+
+.sc3{
+    position: absolute;
+    z-index: 1;
+    max-width: 300px;
+    top: 3710px;
+    left: 1000px;
+}
+
+#elf-title{
+    position:absolute;
+    z-index: 1;
+    top: 4400px;
+    left: 520px;
+}
+
+.e1{
+    position: absolute;
+    z-index: 1;
+    top: 4450px;
+    left:515px;
+}
+
+.e2{
+    position: absolute;
+    z-index: 1;
+    top: 4490px;
+    left: 500px;
+}
+
+.e3{
+    position:absolute;
+    z-index: 1;
+    max-width: 300px;
+    top: 4530px;
+    left: 400px;
+}
+
+#miracle-title{
+    position: absolute;
+    z-index: 1;
+    top: 4450px;   
+    left: 1020px;
+}
+
+.m1{
+    position: absolute;
+    z-index: 1;
+    top: 4500px;
+    left: 1155px;
+}
+
+.m2{
+    position: absolute;
+    z-index: 1;
+    top: 4550px;
+    left: 1140px;
+}
+
+.m3{
+    position: absolute;
+    top: 4600px;
+    left: 1050px;
+    max-width: 300px;
+    z-index: 1;
+    
+}
+
+*/
+
+#dearsanta-signnav{
+    position: absolute;
+    top: 350px;  
+    left: 30px;
+}
+
+#dearsanta-signnav li{
+    padding-bottom: 20px;
+}
+
+.dear-santa #ice2{
+    position: absolute;
+}
+
+div.firstname{
+    max-width: 100px;
+    position: absolute;
+    top:470px;
+    left:450px;
+    text-decoration: underline;
+}
+
+.dear-santa h1{
+    font-family: SantasSleighfull, cursive;
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    left: 600px;
+    top: 300px;
+    text-decoration:underline;
+}
+
+#name{
+    position: absolute;
+    height: 25px;
+    width: 200px;
+    top: 500px;
+    left:450px;
+}
+
+#lastname{
+    position: absolute;
+    height: 25px;
+    width: 200px;
+    left:450px;
+    top: 600px;
+}
+
+div.lastname{
+    max-width: 100px;
+    position: absolute;
+    top: 570px;
+    left: 450px;
+    text-decoration: underline;
+}
+
+#yourcountry{
+    position: absolute;
+    height: 25px;
+    width: 200px;
+    top: 500px;
+    left: 850px;
+}
+
+div.country-title{
+    max-width: 100px;
+    position: absolute;
+    text-decoration: underline;
+    top:470px;
+    left: 850px;
+}
+
+#yourage{
+    position: absolute;
+    height: 25px;
+    width: 200px;
+    
+    left: 850px;
+    top: 600px;
+}
+
+div.age-title{
+    max-width: 100px;
+    position: absolute;
+    text-decoration: underline;
+    top: 570px;
+    left: 850px;
+    
+}
+
+#subject{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 750px;
+    left: 350px;
+}
+
+#send-button{
+    position: absolute;
+    top: 1080px;
+    left: 1120px;
+}
+
+div.letters{
+    max-width: 100px;
+    position: absolute;
+    top: 700px;
+    left: 700px;
+    text-decoration: underline;
+}
+
+.dear-santa footer{
+    position: absolute;
+    bottom: -1000px;
+}
+
+textarea{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#postage{
+    position: absolute;
+    left: 500px;
+    top: 150px;
+
+}
+
+#site-nav > a{
+    display: none;
+}
+
+
+@media only screen and (max-width: 700px){
+    
+    body{
+        
+        max-height: 100%;
+    }
+
+ 
+    nav #homenav{
+        background-image: url(../images/polenew3.png);
+        background-size: contain;
+    }
+    
+    div.signsformobile{
+        position: absolute;
+        left: 100px;
+        top: 300px;
+    }
+    
+    div.signsformobile #homebutt, #moviesbutt, #dearsantabutt{
+        height: 100px;
+       
+    }
+    
+    div.signsformobile #musicbutt, #recipesbutt, #gallerybutt{
+        height: 130px;
+    }
+    
+    .home #foot{
+        height: 200px;
+        width: 500px;
+    }
+    
+    .home footer{
+        bottom: -1900px;
+    }
+   
+    div.santasleigh{
+        display: block;
+        position: absolute;
+        left: 100px
+    }
+    
+    
+    nav, #gallerynav{
+    content: "";
+    display: none;
+    }
+
+    #gallery, #signs-gallery{
+    content: "";
+    display: none;    
+    }
+    
+    .gallery #ice2{
+    content: '';
+    display: none;
+    }
+    
+    #gallery ul, #santahat{
+    
+    left: 15px;
+    top: 300px;
+    height: 230px;
+    width: 367px;
+    
+    
+}
+
+    #gallery ul, #deer{
+    position: absolute;
+    left: 15px;
+    top: 550px;
+    height: 230px;
+    width: 367px;
+    }
+
+    #gallery ul, #tree{
+    position: absolute;
+    left: 15px;
+    top: 800px;
+    height: 230px;
+    width: 367px;
+}
+
+    #gallery ul, #deco{
+    position: absolute;
+    left: 15px;
+    top: 1050px;
+    height: 230px;
+    width: 367px;
+}
+
+    #gallery ul, #kid{
+    position: absolute;
+    left: 15px;
+    top: 1300px;
+    height: 230px;
+    width: 367px;    
+}
+
+    #gallery ul, #lights{
+    position: absolute;
+    left: 15px;
+    top: 1550px;
+    height: 230px;
+    width: 367px;
+}
+
+    #gallery ul, #santakid{
+    position: absolute;
+    left: 15px;
+    top: 1800px;
+    height: 230px;
+    width: 367px;
+}
+
+    #gallery ul, #snowman{
+    position: absolute;
+    left: 15px;
+    top: 2050px;
+    height: 230px;
+    width: 367px;
+}
+    
+    .gallery #elf{
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    
+}
+    
+    .gallery #ice{
+        height: 120px;
+        width: 400px;
+    }
+    
+    div.gallerymobsign{
+        background-image: url(../images/thegallerysign.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        top: 50px;
+        left: 100px;
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        z-index:1;
+    }
+    
+    div.navheader{
+        display: block;
+        position: absolute;
+        top: 230px;
+        
+    }
+    
+    .gallery #indexpg a{
+        font-weight: 700;
+        padding-left: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 25px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+        
+    }
+    
+    .gallery #musicpg a{
+        font-weight: 700;
+        padding-left: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 110px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+        
+    }
+    
+    
+    .gallery #moviespg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 200px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+        
+    }
+    
+    
+    .gallery #recipespg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 300px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+    }
+    
+    
+    .gallery #santapg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 200px;
+        width: 40px;
+        position: absolute;
+        top: 23px;
+        left: 120px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+    }
+    
+    .gallery #gallerypg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 20px;
+        position: absolute;
+        top: 23px;
+        left: 250px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+    }
+
+    
+    
+    
+    
+    
+    div.navheader{
+        top: 250px;
+    }
+    
+    .movies #indexpg a{
+        font-weight: 700;
+        padding-left: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 25px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+        
+    }
+
+    .movies #musicpg a{
+        font-weight: 700;
+        padding-left: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 110px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+        
+    }
+    
+    
+    .movies #moviespg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 200px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+        
+    }
+    
+    
+    .movies #recipespg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 300px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+    }
+    
+    
+    .movies #santapg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 200px;
+        width: 40px;
+        position: absolute;
+        top: 23px;
+        left: 120px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+    }
+    
+    .movies #gallerypg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 20px;
+        position: absolute;
+        top: 23px;
+        left: 250px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+    }
+
+    .movies #movies-signnav li{
+    content: '';
+    display: none;    
+    }
+    
+    .movies #ice2{
+    content: '';
+    display: none;    
+    }
+    
+    .movies #ice{
+        height: 120px;
+        width:400px;
+    }
+ 
+    .movies #elf{
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    }
+    
+    .movies #jingle{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    height: 70%
+}
+
+    .movies #home-pic{
+    position: absolute;
+    top: 870px;
+    left: 20px;
+    height: 75%;
+    width: 50%%;
+}
+
+    .movies #kranks{
+    position: absolute;
+    top: 1460px;
+    left: 20px;
+    height: 75%; 
+}
+
+    .movies #story{
+    position: absolute;
+    top: 2050px;
+    left: 20px;
+    width: 90%;
+}
+
+    .movies #frost{
+    position: absolute;
+    top: 2640px;
+    left: 20px;
+    width: 90%    
+}
+
+    .movies #deck{
+    position: absolute;
+    top: 3230px;
+    left: 20px;
+    width: 90%;    
+}
+
+    .movies #carol{
+    position: absolute;
+    top: 3820px;
+    left: 20px;
+    width: 90%
+}
+
+    .movies #polar{
+    position: absolute;
+    top: 4400px;
+    left: 20px;
+    width: 90%;
+}
+
+    .movies #grinch{
+    position: absolute;
+    top: 4980px;
+    left: 20px;
+    width: 90%;
+}
+
+    .movies #clause{
+    position: absolute;
+    top: 5570px;
+    left: 20px;
+    width: 90%;    
+}
+
+    .movies #elf-movie{
+    position: absolute;
+    top: 6170px;
+    left: 20px;
+    width: 90%;
+}
+    
+    .movies #miracle{
+    position: absolute;
+    top: 6800px;
+    left: 20px;
+    width: 90%;
+    height: 70%;
+}
+
+    .movies footer{
+    position: absolute;
+    bottom: -6600px;
+}
+
+    .movies #ice2{
+    position:absolute;
+}
+
+    div.moviessignmob{
+        background-image: url(../images/moviessign.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        z-index: 1;
+        top: 50px;
+        left: 90px;
+    }
+    
+    
+    
+    
+    
+    
+    .recipes div.navheader{
+        top: 230px;
+    }
+    
+    .recipes #indexpg a{
+        font-weight: 700;
+        padding-left: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 25px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+        
+    }
+
+    .recipes #musicpg a{
+        font-weight: 700;
+        padding-left: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 110px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+        
+    }
+    
+    
+    .recipes #moviespg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 200px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+        
+    }
+    
+    
+    .recipes #recipespg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 300px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+    }
+    
+    
+    .recipes #santapg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 200px;
+        width: 40px;
+        position: absolute;
+        top: 23px;
+        left: 120px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+    }
+    
+    .recipes #gallerypg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 20px;
+        position: absolute;
+        top: 23px;
+        left: 250px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+    }
+    
+    
+    
+    .recipes #elf{
+        height: 200px;
+        width: 500px;
+    }
+    
+    .recipes footer{
+        bottom: -4000px
+    }
+    .recipes .pole ul li{
+    content: "";
+    display: none;    
+    }
+    
+    .recipes #sign-mob{
+        display: block;
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        top: 50px;
+        left: 100px;
+    }
+    
+    .recipes #ice2{
+        content: '';
+        display: none;
+    }
+    
+    .recipes #ice{
+        height: 120px;
+        width:400px;
+    }
+    
+    #candycane{
+    position: absolute;
+    left: 50px;
+    top: 300px;
+}
+
+    #squares{
+    position: absolute;
+    left: 20px;
+    top: 1750px;
+}
+    
+    #buddy{
+    
+    position: absolute;
+    left: 20px;
+    top: 2700px;
+}
+
+    #stick{
+    position: absolute;
+    left: 20px;
+    top: 3600px;
+}
+
+    #ing1 h1, h2 li{
+        display: block;
+    }
+ 
+    #ing1 h1{
+    position: absolute;
+    left: -568px;
+    top: -25px;
+
+}
+
+    div.listofingredients1{
+        position: absolute;
+        left: -560px;
+        top: 500px;
+    }
+
+    .ingredients1{
+        position: absolute;
+        left: -450px;
+        top: 470px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+    
+    .oreocrust{
+        position: absolute;
+        left: -450px;
+        top: 460px;
+    }
+    
+    div.oreocrustingredients{
+        position: absolute;
+        left: -560px;
+        top: 490px;
+    }
+    
+    
+    .chocolategnachie{
+        position: absolute;
+        left: -530px;
+        top: 490px;
+    }
+    
+    div.chocolateing{
+        position: absolute;
+        left: -560px;
+        top: 530px;
+    }
+    
+    .directionsforing{
+        position: absolute;
+        left: -850px;
+        top: 900px;
+    }
+    
+    div.directionsforrec{
+        position: absolute;
+        left: -990px;
+        max-width: 400px;
+        top: 940px;
+        line-height: 1;
+    }
+    
+    #ing1-2 h1{
+        position: absolute;
+        left: -200px;
+        top: 840px;
+    }
+    
+    .gingering{
+        position: absolute;
+        left: -150px;
+        text-decoration: underline;
+        top: 1350px;
+    }
+    
+    div.ingredients2{
+        position: absolute;
+        left: -265px;
+        top: 1380px;
+    }
+    
+    .directions2{
+        position: absolute;
+        left: -450px;
+        top: 1500px;
+    }
+    
+    div.directionslist{
+        position: absolute;
+        left: -575px;
+        max-width: 370px;
+        top: 1550px;
+    }
+    
+    .buddytheelf{
+        position: absolute;
+        left: -610px;
+        top: 1270px;
+    }
+    
+    .bteing{
+        position: absolute;
+        left: -550px;
+        top: 1755px;
+        text-decoration: underline;
+    }
+    
+    div.bteingredients{
+        position:absolute;
+        left: -670px;
+        top: 1800px;
+    }
+    
+    .btedir{
+        position: absolute;
+        left: -850px;
+        top: 1900px;
+    }
+    
+    div.btedirections{
+        position: absolute;
+        left: -980px;
+        max-width: 380px;
+        top: 1950px;
+    }
+    
+    .rods{
+        position: absolute;
+        left: -200px;
+        top: 1660px;
+        max-width: 700px;
+    }
+    
+    .rodsing{
+        position: absolute;
+        left: -150px;
+        text-decoration: underline;
+        top: 2250px;
+    }
+    
+    div.rodingredients{
+        position: absolute;
+        left: -280px;
+        top: 2300px;
+        max-width: ;
+    }
+    
+    .direction4{
+        position: absolute;
+        left: -500px;
+        top: 2450px;
+    }
+    
+    div.rod-direction{
+        position: absolute;
+        left: -620px;
+        top: 2500px;
+        padding-bottom: 200px;
+        max-width: 360px;
+        }
+    
+    
+    
+    
+    #music div.navheader{
+        top: 200px;
+    }
+    
+    #music #indexpg a{
+        font-weight: 700;
+        padding-left: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 25px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+        
+    }
+
+    #music #musicpg a{
+        font-weight: 700;
+        padding-left: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 110px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+        
+    }
+    
+    
+    #music #moviespg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 200px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+        
+    }
+    
+    
+    #music #recipespg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 300px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+    }
+    
+    
+    #music #santapg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 200px;
+        width: 40px;
+        position: absolute;
+        top: 23px;
+        left: 120px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+    }
+    
+    #music #gallerypg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 20px;
+        position: absolute;
+        top: 23px;
+        left: 250px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #music #ice2{
+    content: '';
+        display: none;
+    
+}
+
+    #music #ice{
+        height: 120px;
+        width:400px;
+    }
+    
+    #music #signs-music li{
+        content: '';
+        display: none;
+}
+    
+    div.christmas-music-mob{
+        background-image: url(../images/Musicsign.png);
+        height: 200px;
+        width: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 10px;
+        left: 100px;
+        
+        
+    }
+    
+    #music #musica{
+        position: absolute;
+        left: 0px;        
+        display: block;
+    }
+    
+    
+    #pent-song1, #pent-song2, #ariana-song, #bubble-song1, #bubble-song2, #elvis-song1, #elvis-song2, #frozen-song1, #frozen-song2, #jb-song1, #jb-song2, #sia-song1, #sia-song2, #mc-song1, #mc-song2, #kelly-song1, #kelly-song2{
+        height: 300px;
+        width: 300px;
+        padding-left: 50px;
+        
+    }
+    
+    #music #elf{
+        height: 200px;
+        width: 500px;
+    }
+    
+    #music footer{
+        bottom: -5800px;
+    }
+    
+    
+    
+    #dearsanta-signnav{
+        content: "";
+        display: none;
+    }
+    
+    .dear-santa #ice2{
+        content: '';
+        display: none;
+    }
+    
+    .dear-santa #ice{
+        height: 120px;
+        width: 400px;
+    }
+    
+    div.santamobileheader{
+        background-image: url(../images/santasign.png);
+        height: 200px;
+        width: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 100px;
+        left: 100px;
+        
+        
+    }
+    
+    .dear-santa div.navheader{
+        top: 280px;
+    }
+    
+    
+    .dear-santa #indexpg a{
+        font-weight: 700;
+        padding-left: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 25px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+        
+    }
+    
+   .dear-santa #musicpg a{
+        font-weight: 700;
+        padding-left: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 110px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+        
+    }
+    
+    
+    .dear-santa #moviespg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 200px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+        
+    }
+    
+    
+    .dear-santa #recipespg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 20px;
+        position: absolute;
+        top: 1px;
+        left: 300px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+    }
+    
+    
+    .dear-santa #santapg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        max-width: 200px;
+        width: 40px;
+        position: absolute;
+        top: 23px;
+        left: 120px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+    }
+    
+    .dear-santa #gallerypg a{
+        font-weight: 700;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 20px;
+        position: absolute;
+        top: 23px;
+        left: 250px;
+        background-color: white;
+        border-radius: 4px;
+        border-bottom-left-radius: 4px;
+        width: 50px;
+        text-decoration: none;
+        color: red;
+    }
+
+    
+    
+    
+    
+    
+    .dear-santa #postage{
+        position: absolute;
+        left: 15px;
+        top: 330px;
+        height: 180px;
+        
+    }
+    
+    .dear-santa #name{
+        position: absolute;
+        left:100px;
+        top: 550px;
+    }
+    
+    .dear-santa div.firstname{
+        position: absolute;
+        left: 170px;
+        top: 520px;
+    }
+    
+    .dear-santa #lastname{
+        position: absolute;
+        left: 100px;
+        top: 650px;
+    }
+    
+    .dear-santa div.lastname{
+        position: absolute;
+        left: 170px;
+        top: 620px;
+    }
+    
+    .dear-santa #yourage{
+        position: absolute;
+        left: 100px;
+        top: 750px;
+    }
+    
+    .dear-santa div.age-title{
+        position: absolute;
+        left: 190px;
+        top: 720px;
+    }
+    
+    .dear-santa #yourcountry{
+        position: absolute;
+        left: 100px;
+        top: 850px;
+    }
+    
+    .dear-santa div.country-title{
+        position: absolute;
+        left: 175px;
+        top: 820px;
+    }
+    
+    .dear-santa div.letters{
+        position: absolute;
+        left:155px;
+        top: 950px;
+    }
+    
+    .dear-santa div.subjectbox{
+        position: absolute;
+        width: 300px;
+        height: 1000px;
+        left: -300px;
+        top: 250px;
+    }
+    
+    .dear-santa #send-button{
+        position: absolute;
+        left: 180px;
+        top: 1250px;
+    }
+    
+    .dear-santa #elf{
+        height: 200px;
+        width: 500px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
